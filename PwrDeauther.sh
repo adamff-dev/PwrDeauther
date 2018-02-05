@@ -32,5 +32,5 @@ ifconfig $WI down
 iwconfig $WI mode monitor
 macchanger -r $WI
 ifconfig $WI up
-xterm -geometry 40x10 -e mdk3 $WI d -c $CH
+mdk3 $WI d -c $CH
 trap exit EXIT
