@@ -28,8 +28,9 @@ From the mdk3 documentaion:
 `MDK3 uses the drivers and Injection routines from this project and its predecessor. Thus, all drivers listed there should work with MDK3. (Some special hardware, like Intel Centrino (ipw2200) is NOT supported since they can only inject data, and no management information!)`
 
 ## Instalation
-
 1. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
+
+2. Package instalation
 
 2.a Method 1 run the install.sh file **AS ROOT**
 
