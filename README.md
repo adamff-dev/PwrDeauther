@@ -7,7 +7,7 @@ A MDK3 channel deauther script. Fast, easy to use and powerful. (MDK3 is more po
 
 MDK3 `apt-get install mdk3`: https://github.com/wi-fi-analyzer/mdk3-master
 
-macchanger `sudo apt-get install macchanger` https://github.com/alobbs/macchanger
+MACCHANGER `sudo apt-get install macchanger` https://github.com/alobbs/macchanger
 
 NMCLI `Preinstalled on most distros.`: https://github.com/mvidner/nmcli
 
