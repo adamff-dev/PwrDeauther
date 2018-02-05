@@ -7,7 +7,7 @@ A MDK3 channel deauther script. Fast, easy to use and powerful. (MDK3 is more po
 
 <img src="https://github.com/BlueArduino20/PwrDeauther/blob/master/Screenshot_01.png?raw=true">
 
-## Requirements
+## Dependencies
 
 MDK3 `apt-get install mdk3`: https://github.com/wi-fi-analyzer/mdk3-master
 
@@ -28,10 +28,13 @@ From the mdk3 documentaion:
 `MDK3 uses the drivers and Injection routines from this project and its predecessor. Thus, all drivers listed there should work with MDK3. (Some special hardware, like Intel Centrino (ipw2200) is NOT supported since they can only inject data, and no management information!)`
 
 ## Instalation
+  1. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
 
-1. Make sure you have the required packages (listed above) installed
+  2. Dependencie instalation
 
-2. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
+    2.1 Method 1 run the install.sh file AS ROOT
 
-3. Run the script `sudo bash PwrDeauther.sh`
+    2.2 Method 2 Manualy add sources and install packages listed above
+
+  3. Run the script `sudo bash PwrDeauther.sh`
 
