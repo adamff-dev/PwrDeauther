@@ -1,10 +1,10 @@
 function coolexit()
 {
 clear
-ifconfig $AD down
-macchanger -p $AD
-iwconfig $AD mode managed
-ifconfig $AD up
+ifconfig $WI down
+macchanger -p $WI
+iwconfig $WI mode managed
+ifconfig $WI up
 clear
 echo -e "\e[1;31mThanks for using this script"
 echo -e "Made by BlueArduino20"
