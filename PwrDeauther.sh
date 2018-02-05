@@ -32,5 +32,5 @@ ifconfig $WI down
 iwconfig $WI mode monitor
 macchanger -r $WI
 ifconfig $WI up
-mdk3 $WI d -c $CH &&
+xterm -e mdk3 $WI d -c $CH &&
 trap coolexit EXIT
