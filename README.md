@@ -32,9 +32,9 @@ From the mdk3 documentaion:
 
 2. Package instalation
 
-2.a Method 1 run the install.sh file **AS ROOT**
+  2a.  Method 1 run the install.sh file **AS ROOT**
 
-2.b Method 2 Manualy add sources and install packages listed above
+  2b. Method 2 Manualy add sources and install packages listed above
 
 3. Run the script `sudo bash PwrDeauther.sh`
 
