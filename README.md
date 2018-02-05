@@ -1,6 +1,10 @@
 # PwrDeauther
 A MDK3 channel deauther script. Fast, easy to use and powerful. (MDK3 is more powerful than Aireplay)
 
+- Do NOT use sudo.
+
+- MDK3 uses the drivers and Injection routines from this project and its predecessor. Thus, all drivers listed there should work with MDK3. <b>(Some special hardware, like Intel Centrino (ipw2200) is NOT supported since they can only inject data, and no management information!)</b>
+
 <img src="https://github.com/BlueArduino20/PwrDeauther/blob/master/Screenshot_01.png?raw=true">
 
 ## Requirements
