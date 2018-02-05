@@ -29,9 +29,11 @@ From the mdk3 documentaion:
 
 ## Instalation
 
-1. Make sure you have the required packages (listed above) installed
+1. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
 
-2. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
+2.a Method 1 run the install.sh file **AS ROOT**
+
+2.b Method 2 Manualy add sources and install packages listed above
 
 3. Run the script `sudo bash PwrDeauther.sh`
 
