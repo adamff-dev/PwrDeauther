@@ -9,6 +9,8 @@ MDK3 `apt-get install mdk3`: https://github.com/wi-fi-analyzer/mdk3-master
 
 MACCHANGER `sudo apt-get install macchanger` https://github.com/alobbs/macchanger
 
+Xterm `apt-get install xterm`: http://invisible-island.net/xterm/
+
 NMCLI `Preinstalled on most distros.`: https://github.com/mvidner/nmcli
 
 ## Related links
