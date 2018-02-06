@@ -5,7 +5,7 @@ A MDK3 channel deauther script. Fast, easy to use and powerful. (MDK3 is more po
 
 ## Dependencies
 
-MDK3 `apt-get install mdk3`: https://github.com/wi-fi-analyzer/mdk3-master
+MDK3 `sudo apt-get install mdk3`: https://github.com/wi-fi-analyzer/mdk3-master
 
 MACCHANGER `sudo apt-get install macchanger` https://github.com/alobbs/macchanger
 
@@ -26,7 +26,7 @@ From the mdk3 documentaion:
 
     2.2 Method 2 Manualy add sources and install packages listed above
 
-  3. Run the script `sudo bash PwrDeauther.sh`
+  3. Run the script `sudo PwrDeauther.sh`
 
 ## Related links
 Wi-Fi deauthentication attack: https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack
