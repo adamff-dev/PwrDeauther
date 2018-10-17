@@ -41,3 +41,11 @@ Wi-Fi deauthentication attack: https://en.wikipedia.org/wiki/Wi-Fi_deauthenticat
 Difference between Aireplay and MDK3: https://security.stackexchange.com/questions/61211/wifi-deauth-attack-difference-between-aireplay-and-mdk3
 
 mdk3 Package Description: https://tools.kali.org/wireless-attacks/mdk3
+
+## Check out my other projects
+
+- **WiFi-Spam**: This script allows you to spam thousands of WiFi SSIDs.
+  - https://github.com/BlueArduino20/WiFi-Spam
+
+- **ESP8266 WiFi Captive Portal**: WiFi captive portal for NodeMCU (ESP8266 Module) with DNS spoofing.
+  - https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal
