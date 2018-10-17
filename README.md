@@ -1,7 +1,14 @@
-# PwrDeauther
-A MDK3 channel deauther script. Fast, easy to use and powerful. (MDK3 is more powerful than Aireplay)
+# PwrDeauther (V. 2.0)
+Automatic MDK3 deauther script. Fast, easy to use and powerful (MDK3 is more powerful than Aireplay).
+This script allows you to deauth a specific SSID (Option 1) or an entire channel (Option 2).
 
-<img src="https://github.com/BlueArduino20/PwrDeauther/blob/master/Screenshot_01.png?raw=true">
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/1.png">
+
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/2.png">
+
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/3.png">
+
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/4.png">
 
 ## Dependencies
 
@@ -32,3 +39,5 @@ From the mdk3 documentaion:
 Wi-Fi deauthentication attack: https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack
 
 Difference between Aireplay and MDK3: https://security.stackexchange.com/questions/61211/wifi-deauth-attack-difference-between-aireplay-and-mdk3
+
+mdk3 Package Description: https://tools.kali.org/wireless-attacks/mdk3
