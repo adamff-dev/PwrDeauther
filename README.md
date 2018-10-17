@@ -34,6 +34,8 @@ From the mdk3 documentaion:
     2.2 Method 2 Manualy add sources and install packages listed above
 
   3. Run the script `sudo PwrDeauther.sh`
+  
+Thanks to <a href="https://github.com/digmorepaka">@digmorepaka</a>.
 
 ## Related links
 Wi-Fi deauthentication attack: https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack
