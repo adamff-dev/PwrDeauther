@@ -6,7 +6,9 @@ This script allows you to deauth a specific SSID (Option 1) or an entire channel
 
 <img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/2.png">
 
-<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/3.png">
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/3.PNG">
+
+<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/5.png">
 
 <img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/4.png">
 
