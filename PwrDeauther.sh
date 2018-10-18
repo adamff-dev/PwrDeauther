@@ -90,8 +90,7 @@ if [ $CHOICE == 1 ]; then
 	echo " "
 	getIFCARD
 	read WI
-	clear
-	title
+	echo " "
 	echo -e $BOLD_GREEN
 	echo "Starting the attack... If you want to stop it press CTRL+C"
 	changeMAC
