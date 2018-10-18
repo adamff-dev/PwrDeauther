@@ -54,7 +54,7 @@ function getIFCARD() {
         echo -e -n "$BOLD_WHITE"
         ifconfig | grep -e ": " | sed -e 's/: .*//g' | sed -e 's/^/   /'
         echo " "
-        echo -n -e "$BOLD_BLUE   Type your wireless interface > "
+        echo -n -e "$BOLD_CYAN   Type your wireless interface > "
         echo -n -e "$BOLD_WHITE"
 }
 
@@ -81,7 +81,7 @@ if [ $CHOICE == 1 ]; then
 	echo -e $NO_COLOR
 	nmcli dev wifi
 	echo " "
-	echo -e -n $BOLD_BLUE
+	echo -e -n $BOLD_CYAN
 	echo -n " Type the target SSID > "
 	echo -e -n $BOLD_WHITE
 	read SSID
@@ -103,7 +103,7 @@ if [ $CHOICE == 2 ]; then
 	echo -e $NO_COLOR
 	nmcli dev wifi
 	echo " "
-	echo -e -n $BOLD_BLUE
+	echo -e -n $BOLD_CYAN
 	echo -n " Type the target channel > "
 	echo -e -n $BOLD_WHITE
 	read CH
@@ -112,8 +112,7 @@ if [ $CHOICE == 2 ]; then
 	echo " "
 	getIFCARD
 	read WI
-	clear
-	title
+	echo " "
  	echo -e $BOLD_GREEN
 	echo -e " Starting the attack... If you want to stop it press CTRL+C."
 	changeMAC
