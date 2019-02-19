@@ -96,8 +96,7 @@ if [ $CHOICE == 1 ]; then
 	changeMAC
 	trap coolexit EXIT
 	mdk3 $WI d -n "$SSID"
-fi
-if [ $CHOICE == 2 ]; then
+elif [ $CHOICE == 2 ]; then
 	title
 	echo -e $NO_COLOR
 	nmcli dev wifi
@@ -117,4 +116,8 @@ if [ $CHOICE == 2 ]; then
 	changeMAC
 	trap coolexit EXIT
 	mdk3 $WI d -c $CH
+else
+	echo Invalid option
+	sleep 5
+	coolexit
 fi
