@@ -117,7 +117,7 @@ elif [ $CHOICE == 2 ]; then
 	trap coolexit EXIT
 	mdk3 $WI d -c $CH
 else
-	echo Invalid option
-	sleep 5
+	echo -e $BOLD_RED Invalid option
+	sleep 3
 	coolexit
 fi
