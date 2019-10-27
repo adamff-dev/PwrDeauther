@@ -53,3 +53,6 @@ mdk3 Package Description: https://tools.kali.org/wireless-attacks/mdk3
 
 - **ESP8266 WiFi Captive Portal**: WiFi captive portal for NodeMCU (ESP8266 Module) with DNS spoofing.
   - https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal
+  
+## Disclaimer
+This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
