@@ -46,7 +46,7 @@ function title() {
 	echo "  / ____/| |/ |/ / /  / /_/ /  __/ /_/ / /_/ / /_/ / / /  __/ /    "
 	echo " /_/     |__/|__/_/  /_____/\\___/\\__,_/\\__,_/\\__/_/ /_/\\___/_/     "
 	echo -e $BOLD_WHITE
-	echo "            		 Automatic MDK3 deauther by BlueArduino20"
+	echo "					  Automatic MDK3 deauther by 125K"
 }
 
 function getIFCARD() {
