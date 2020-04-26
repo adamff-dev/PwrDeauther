@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # TERMINAL COLORS
-# https://github.com/BlueArduino20/terminal-colors
+# https://github.com/125K/terminal-colors
 NO_COLOR="\e[0m"
 WHITE="\e[0;17m"
 BOLD_WHITE="\e[1;37m"
@@ -34,7 +34,7 @@ function coolexit()
 	title
 	echo -e $BOLD_RED
 	echo " Thanks for using this script"
-	echo -e " My GitHub:$BOLD_WHITE https://github.com/BlueArduino"
+	echo -e " My GitHub:$BOLD_WHITE https://github.com/125K"
 	exit
 }
 
