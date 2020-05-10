@@ -33,11 +33,11 @@ From the mdk3 documentaion:
 
   2. Dependencie instalation
 
-    2.1 Method 1 run the install.sh file AS ROOT
+    2.1 Method 1  `chmod +x install.sh` and run install.sh file AS ROOT
 
     2.2 Method 2 Manualy add sources and install packages listed above
 
-  3. Run the script `sudo PwrDeauther.sh`
+  3. Run the script `chmod +x PwrDeauther.sh` and `sudo PwrDeauther.sh`
   
 Thanks to <a href="https://github.com/digmorepaka">@digmorepaka</a>.
 
