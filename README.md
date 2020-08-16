@@ -2,9 +2,9 @@
 Automatic MDK3 deauther script. Fast, easy to use and powerful (MDK3 is more powerful than Aireplay).
 This script allows you to deauth a specific SSID (Option 1) or an entire channel (Option 2).
 
-## Script showcase
+## Showcase video
 
-<a href="https://youtu.be/ZiujaDVpdEk"><img src="https://i.imgur.com/pjBiZyx.png"></a>
+<a href="https://youtu.be/ZiujaDVpdEk"><img src="https://i.imgur.com/f82biKP.png"></a>
 
 ## Preview
 
