@@ -53,7 +53,7 @@ mdk3 Package Description: https://tools.kali.org/wireless-attacks/mdk3
 ## Check out my other projects
 
 - **WiFi-Spam**: :email::satellite: Spam thousands of WiFi access points with custom SSIDs.
-  - https://github.com/BlueArduino20/WiFi-Spam
+  - https://github.com/125K/WiFi-Spam
 
 - **ESP8266 WiFi Captive Portal**: :key: WiFi captive portal for ESP8266 for phishing WiFi passwords.
   - https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal
