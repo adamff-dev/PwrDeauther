@@ -2,6 +2,12 @@
 Automatic MDK3 deauther script. Fast, easy to use and powerful (MDK3 is more powerful than Aireplay).
 This script allows you to deauth a specific SSID (Option 1) or an entire channel (Option 2).
 
+## Script showcase
+
+<a href="https://youtu.be/ZiujaDVpdEk"><img src="https://i.imgur.com/pjBiZyx.png"></a>
+
+## Preview
+
 <img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/1.png">
 
 <img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/2.png">
