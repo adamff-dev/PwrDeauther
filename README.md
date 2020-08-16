@@ -8,9 +8,9 @@ This script allows you to deauth a specific SSID (Option 1) or an entire channel
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/1.png">
+<img src="https://raw.githubusercontent.com/125K/PwrDeauther/master/img/1.png">
 
-<img src="https://raw.githubusercontent.com/BlueArduino20/PwrDeauther/master/img/2.png">
+<img src="https://raw.githubusercontent.com/125K/PwrDeauther/master/img/2.png">
 
 Here you can donate if you liked my project and you want to support me:
 
@@ -31,7 +31,7 @@ From the mdk3 documentaion:
 `MDK3 uses the drivers and Injection routines from this project and its predecessor. Thus, all drivers listed there should work with MDK3. (Some special hardware, like Intel Centrino (ipw2200) is NOT supported since they can only inject data, and no management information!)`
 
 ## Instalation
-  1. Download the files `git clone https://github.com/BlueArduino20/PwrDeauther.git`
+  1. Download the files `git clone https://github.com/125K/PwrDeauther.git`
 
   2. Dependencie instalation
 
@@ -56,7 +56,7 @@ mdk3 Package Description: https://tools.kali.org/wireless-attacks/mdk3
   - https://github.com/125K/WiFi-Spam
 
 - **ESP8266 WiFi Captive Portal**: :key: WiFi captive portal for ESP8266 for phishing WiFi passwords.
-  - https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal
+  - https://github.com/125K/ESP8266_WiFi_Captive_Portal
   
 ## Disclaimer
 This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
